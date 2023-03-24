@@ -2,6 +2,8 @@
 This project runs the cpcontainer/web-video-player image which runs an NGINX webserver with javascript video player.  
 This is useful for demonstrating container capabilities and testing connectivity across network segments.
 
+![image](https://user-images.githubusercontent.com/127797701/227572301-9e188cd4-3794-4157-bfa2-2d68dfa26131.png)
+
 ## Setup:  
 - Edit your Cradlepoint router configuration and navigate to System > Containers > Projects and click Add.  
 - Give your project a name ("web-video-player") and click on the Compose tab.  
