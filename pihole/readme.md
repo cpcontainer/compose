@@ -1,6 +1,8 @@
 # pihole
 This project runs a pihole server for content filtering and DHCP.
 
+![image](https://github.com/cpcontainer/compose/assets/127797701/3bff99b9-c906-4a6c-8920-05d97d7383a7)
+
 ## Setup:
 - Edit your Cradlepoint router configuration and navigate to System > Containers > Projects and click Add.  
 - Give your project a name ("pihole") and click on the Compose tab.
@@ -38,7 +40,7 @@ networks:
           gateway: 192.168.0.1
 
 ```
-
+![image](https://github.com/cpcontainer/compose/assets/127797701/68d6c272-6b75-47a3-8779-b236c9fdf136)
 
 ## Usage:  
 - Browse to the IP address of the pihole container with /admin on the URL (e.g. http://192.168.0.2/admin)
