@@ -1,7 +1,0 @@
-version: '2.4'
-services:
-  video:
-    image: 'cpcontainer/web-video-player'
-    restart: unless-stopped
-    ports:
-     - 8000:80
