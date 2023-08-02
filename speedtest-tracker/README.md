@@ -1,5 +1,5 @@
 # speedtest-tracker
-This project runs the henrywhitaker3/speedtest-tracker:dev-arm container which runs a speedtest every hour and graphs the results. The back-end is written in Laravel and the front-end uses React. It uses Ookla's Speedtest cli to get the data and uses Chart.js to plot the results.
+This project runs the henrywhitaker3/speedtest-tracker:latest-arm container which runs a speedtest every hour and graphs the results. The back-end is written in Laravel and the front-end uses React. It uses Ookla's Speedtest cli to get the data and uses Chart.js to plot the results.
 
 ![image](https://user-images.githubusercontent.com/127797701/226963907-80ee2aae-f1d5-499b-9b84-ba0f6d8c8559.png)
 
