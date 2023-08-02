@@ -12,7 +12,7 @@ This project runs the henrywhitaker3/speedtest-tracker:dev-arm container which r
 version: '2.4'
 services:
   speedtest:
-    image: henrywhitaker3/speedtest-tracker:dev-arm
+    image: henrywhitaker3/speedtest-tracker:latest-arm
     ports:
      - 8000:80
     volumes:
