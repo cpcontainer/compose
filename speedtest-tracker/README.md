@@ -31,7 +31,7 @@ volumes:
 - Use NCM Remote Connect LAN Manager to create a profile for "Speedtest-Tracker" at 127.0.0.1 port 8000 protocol HTTP.
 - Connect to the "Speedtest-Tracker" profile you created.
 
-or
+or locally:
 
 - In the routers Zone Firewall, forward the PrimaryLAN Zone to the Router with DefaultAllowAll policy.
 - Browse to the IP address of your router, port 8000 (e.g. http://192.168.0.1:8000)
