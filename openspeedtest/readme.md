@@ -11,7 +11,7 @@ This project runs the openspeedtest/latest container which runs a web based spee
 ```yaml
 version: '2.4'
 services:
-    speedtest:
+    openspeedtest:
         image: openspeedtest/latest
         restart: unless-stopped
         ports:
