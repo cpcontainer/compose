@@ -1,7 +1,7 @@
 # OpenSpeedtest
 This project runs the openspeedtest/latest container which runs a web based speedtest server.
 
-
+![image](https://github.com/cpcontainer/compose/assets/127797701/9f4dd2b0-67d4-4a9c-8497-697ca59bf0e1)
 
 ## Setup:
 - Edit your Cradlepoint router configuration and navigate to System > Containers > Projects and click Add.  
@@ -18,10 +18,13 @@ services:
             - '3000:3000'
 ```
 
-
 ## Usage:  
-Browse to your routers IP address on port 3000.
-e.g. http://192.168.0.1:3000
+Browse to your routers IP address on port 3000. Click Start.
+> e.g. http://192.168.0.1:3000
+
+![image](https://github.com/cpcontainer/compose/assets/127797701/643a2cc4-9157-4791-9cd4-e32b5f94f22c)
+
+### Features:
 
 Stress Test. (Continuous Speed Test)
 
