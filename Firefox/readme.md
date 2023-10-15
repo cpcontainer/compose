@@ -1,9 +1,9 @@
-# Firefox
-This project runs a Firefox browser on Cradlepoint Routers (with configurable start page).
+# firefox
+This project runs a firefox browser on Cradlepoint Routers (with configurable start page).
 
 ## Setup:
 - Edit your Cradlepoint router configuration and navigate to System > Containers > Projects and click Add.  
-- Give your project a name ("Firefox") and click on the Compose tab.
+- Give your project a name ("firefox") and click on the Compose tab.
 - Paste the following YAML into the compose tab of your project and click save:
 > Set the environment variable FF_OPEN_URL to your start page of choice.
 
