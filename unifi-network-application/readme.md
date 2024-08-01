@@ -1,5 +1,7 @@
 # unifi-network-application
-This project runs the Unifi Network Application (ui.com)
+This project runs the Unifi Network Application WiFi Controller (ui.com)
+
+![image](https://github.com/user-attachments/assets/19007fe2-2552-4ca0-a16a-f1e199fd78fb)
 
 ## Setup:
 - Edit your Cradlepoint router configuration and navigate to System > Containers > Projects and click Add.  
