@@ -18,6 +18,7 @@ services:
       - TZ=America/Denver
       - WEBPASSWORD=password
       - PIHOLE_UID=0
+      - DNSMASQ_USER=root
     cap_add:
      - NET_ADMIN
     networks:
