@@ -4,6 +4,10 @@
 ![image](https://github.com/user-attachments/assets/f73d7d59-3ffc-45d6-b677-67e79acf9ecf)
 
 ## Setup:
+Add a static route to the main routing table for 192.168.100.1/32 to go out the ethernet device that the Starlink is connected to. DO NOT check the auto gateway box.  
+
+![image](https://github.com/user-attachments/assets/53a2eda4-42a4-431c-8d4a-46c394057539)
+
 Create a new container project in your Cradlepoint router and give it a name ("Starlink Web") then click to the "compose" tab.
 Copy and paste the following compose into your project and click save.
 
