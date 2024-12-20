@@ -1,5 +1,30 @@
 # starlinkweb
 # The BetterThanNothingWebInterface from ChuckTSI modified for ARM64 Ericsson Cradlepoint Routers.
+
+![image](https://github.com/user-attachments/assets/f73d7d59-3ffc-45d6-b677-67e79acf9ecf)
+
+## Setup:
+Create a new container project in your Cradlepoint router and give it a name ("Starlink Web") then click to the "compose" tab.
+Copy and paste the following compose into your project and click save.
+
+## Compose:
+```yaml
+version: '2.4'
+services:
+  starlinkweb:
+    image: cpcontainer/starlinkweb
+    ports:
+      - 8080:80
+```
+
+## Usage:
+In NetCloud Manager, create a LAN Manager profile for "Starlink Web" with IP address 127.0.0.1 port 8080 protocol HTTP.
+Click Connect on the profile you created.
+
+## Docker Hub
+https://hub.docker.com/r/cpcontainer/starlinkweb
+---
+
 A Web Interface for Seeing Data from Dishy in the Better Than Nothing Beta by Starlink
 
 #################################################################################################
