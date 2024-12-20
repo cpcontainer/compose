@@ -1,0 +1,56 @@
+* { 
+	font-family: 'Montserrat', sans-serif; 
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#main_container {
+	 max-width: 560px;
+}
+
+/* HEADER */
+
+#starlinklogo {
+	width: 200px !important;
+}
+
+#pill_beta {
+	margin-left: -180px; 
+	margin-top: -70px;
+}
+
+#tagline {
+	margin-left: -60px; 
+	margin-top: 0px;
+}
+
+
+#user {
+	margin-top: -0px; 
+	margin-left:210px
+}
+
+#username {
+	margin-left: -100px;
+}
+
+.section_title {
+	/*font-size: 18px;*/
+}
+
+.nocolor {
+	color: inherit !important;
+}
+
+.moreinfo {
+	cursor: pointer;
+}
+
+.jqstooltip {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
