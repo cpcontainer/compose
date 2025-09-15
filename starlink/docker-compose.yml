@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  starlink-tools:
+    build: .
+    container_name: starlink-tools
+    ports:
+      - "8000:8000"  # Web interface
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    networks:
+      - starlink-network
+
+networks:
+  starlink-network:
+    driver: bridge
