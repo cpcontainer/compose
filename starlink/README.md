@@ -2,6 +2,22 @@
 
 This is a modified version of https://github.com/sparky8512/starlink-grpc-tools for use on Ericsson/Cradlepoint routers.  
 
+docker-compose:  
+
+```yaml
+version: '3'
+services:
+  starlink:
+    image: cpcontainer/starlink
+    container_name: starlink
+    restart: unless-stopped
+    ports:
+    - 8000:8000
+    volumes:
+    - ${CONFIG_STORE}
+```
+
+
 This repository has a handful of tools for interacting with the [gRPC](https://grpc.io/) service implemented on the Starlink user terminal (AKA "the dish").
 
 For more information on what Starlink is, see [starlink.com](https://www.starlink.com/) and/or the [r/Starlink subreddit](https://www.reddit.com/r/Starlink/).
